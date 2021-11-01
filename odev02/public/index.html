@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kediyi Bul</title>
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <h1>Kedi Bulmaca</h1>
+
+    <img id="0" class="kart" onclick="Secim.resimsec('0')">
+    <img id="1" class="kart" onclick="Secim.resimsec('1')">
+    <img id="2" class="kart" onclick="Secim.resimsec('2')">
+
+    <div class="mesaj">
+        <p id="alanId">Kedi kartını bulabilmek için kartın üzerine tıklamalısın.</p>
+        <p id="kazandiId" style="display: none;"></p>
+        <p id="kaybettiId" style="display: none;"></p>
+    </div>
+    <script src="bundle.js"></script>
+    <script> Secim.basla()</script>
+</body>
+
+</html>
